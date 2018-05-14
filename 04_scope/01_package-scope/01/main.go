@@ -7,7 +7,8 @@ import "fmt"
 func main()  {
   fmt.Println(x)
   sample()
-  sample()
+  y := 10
+  fmt.Println(y)
 }
 
 func sample()  {
