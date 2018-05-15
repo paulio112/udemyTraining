@@ -11,12 +11,13 @@ const (
 
 func main() {
 
-	fmt.Println("Binary\t\tDecimal")
+  var x = 42
+  fmt.Printf("%T", x)
+/*	fmt.Println("Binary\t\tDecimal")
 	fmt.Printf("%b\t", KB)
 	fmt.Printf("%d\n", KB)
 	fmt.Printf("%b\t", MB)
 	fmt.Printf("%d\n", MB)
 	fmt.Printf("%b\t", GB)
-	fmt.Printf("%d\n", GB)
-
+	fmt.Printf("%d\n", GB)*/
 }
