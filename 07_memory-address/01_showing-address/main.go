@@ -8,4 +8,5 @@ func main() {
 
 	fmt.Println("a - ", a)
 	fmt.Println("a's memory address is - ", &a)
+
 }
